@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>PASSPORT APPLICATION</title>
+</head>
+<body>
+    <h1>PASSPORT APPLICATION FORM</h1>
+    <form action="success.html"><hr>
+        <div><h4>Service Required</h4>
+        <label for="apply">Applying for: *</label>
+        <input type="text" name="apply"><br>
+        <label for="type">Type of Application: *</label>
+        <input type="radio" name="type">Normal
+        <input type="radio" name="type">Tatkaal <br>
+        <label for="booklet">Type of Passport Booklet: *</label>
+        <input type="radio" name="booklet">36 pages
+        <input type="radio" name="booklet">60 pages<br>
+        <label for="valid">Validity Required <i>(For minors between 15 and 18)</i></label>
+        <input type="radio" name="valid">10 years
+        <input type="radio" name="valid">Up to age 18
+        <input type="radio" name="valid">Not applicable<br></div>
+        <div><h4>Applicant Details</h4>
+        <label for="fname">Applicant's Given Name</label><br>
+        <input type="text" name="fname" style="width: 96vw;">
+        <label for="sname">Surname</label><br>
+        <input type="text" name="sname" style="width: 96vw;">
+        <label for="type">Are you known by any other aliases? : *</label>
+        <input type="radio" name="alias">Yes
+        <input type="radio" name="alias">No<br>
+        <label for="type">Have you ever changed your name? : *</label>
+        <input type="radio" name="namech">Yes
+        <input type="radio" name="namech">No<br>
+        <label for="type">Date of Birth(DD/MM/YY): *</label>
+        <input type="date" name="date"></div>
+        <div><h4>Place of Birth</h4>
+        <label for="vtc">Village, Town or City: *</label>
+        <input type="text" name="vtc" style="width: 80vw;margin-left: 30px;"><br>
+        <label for="">Country <i>(if abroad)</i>*</label>
+        <input type="text" name="country" style="width: 80vw;margin-left: 52px;"><br>
+        <label for="state">State <i>(if in India)</i>*</label>
+        <input type="text" name="state">
+        <label for="dist">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;District<i>(if in India)</i>*</label>
+        <input type="text" name="dist"><br>
+        <i>If born before 15/08/1947 in a place now in Pakistan or Bangladesh, select "Undivided India"</i><br>
+        <label for="gender">Gender *</label>
+        <input type="text" name="gender">
+        <label for="marital">&emsp;&emsp;&emsp;&emsp;Marital Status </label>
+        <input type="text" name="marital">
+        <label for="citizenship">&emsp;&emsp;&emsp;&emsp;Citizenship of India by*</label>
+        <input type="text" name="citizenship"><br>
+        <label for="PAN">PAN <i>(if available)</i> *</label>
+        <input type="text" name="PAN">
+        <label for="voter">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Voter ID <i>(if available)</i>* </label>
+        <input type="text" name="voter"><br>
+        <label for="employ">Employment Type* </label>
+        <input type="text" name="employ" style="width: 88vw;"><br>
+        <label for="employ">Is either of your parents (incase of minor)/ spouse, a government employee?* </label>
+        <input type="text" name="employ" style="width: 70px;">
+        <label for="eduqual">Educational Qualification *</label>
+        <input type="text" name="eduqual">
+        <label for="nonecr">Are you eligible for Non-ECR category? : *</label>
+        <input type="text" name="nonecr">
+        <label for="vdm">Visible Distinguishing Mark</label>
+        <input type="text" name="vdm"></div>
+        <div><h4>Family Details (You have to provide atleast one Father/Mother or Legal Guardian details.)</h4>
+        <label for="dadname">Father's Given Name:</label><br>
+        <input type="text" name="dadname" style="width: 96vw;"><br>
+        <label for="dsurname">Surname:</label><br>
+        <input type="text" name="dsurname" style="width: 96vw;"><br>
+        <label for="legname">Legal Guardian's Given Name:</label><br>
+        <input type="text" name="legname" style="width: 96vw;"><br>
+        <label for="lsurname">Surname:</label><br>
+        <input type="text" name="lsurname" style="width: 96vw;"><br>
+        <label for="momname">Mother's Given Name:</label><br>
+        <input type="text" name="momname" style="width: 96vw;"><br></div>
+        <input type=button id="button" onClick="location.href='./success.html'" value='Submit'>
+    </form>
+</body>
+</html>
