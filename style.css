@@ -1,0 +1,41 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+}
+h1{
+    text-align: center;
+}
+h4{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(139, 139, 139);
+}
+
+hr{
+    background-color: black;
+    height: 3px;
+}
+div{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#button{
+    margin-top: 30px;
+    padding-top: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 15px;
+    border: none;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: #000;
+    color: #fff;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 50px;
+}
